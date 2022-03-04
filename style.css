@@ -13,12 +13,14 @@ html {
 
 body {
     font-family: 'Fredoka', sans-serif !important;
-    background-color: #b31e1e;
+    background-color: #850b0b;
 }
 
-.collapse {
+nav {
     background-color: #1d1f24;
-    
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 
 .nav-link {
@@ -31,13 +33,112 @@ body {
     color: #ee0c0c !important; 
 }
 
-.hero-text {
-    font-size: 20px;
-    color: black;
-    width: 40%;
+.hero {
+    color: #eee;
+    position: relative;
+    justify-content: center;
     text-align: center;
-    border: 2px solid #b31e1e;
-    border-radius: 3%;
-    padding: 30px 30px;
-    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    min-height: 95vh;
 }
+
+.hero .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-color: #80a3db;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+}
+
+.hero h1 {
+    font: bold 60px 'Fredoka', sans-serif;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font: normal 28px 'Fredoka', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 400 !important;
+}
+
+.hero h3 span {
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+    color: #ff0404;
+}
+
+.hero-content-area {
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes slidefade {
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero h3 {
+        font-size: 24px;
+    }
+
+    .hero a.btn {
+        padding: 15px 40px;
+    }
+}
+
+.hero-text {
+    width: 55%;
+    color: #111111;
+    text-align: center;
+    margin: 6% auto;
+    font-size: larger;
+}
+
+.grid {
+    width: 80% !important;
+}
+
+.first-part,
+.second-part {
+    display: flex;
+}
+
+.grid li {
+    list-style: none;
+    height: 450px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .grid li.small {
+    flex-basis: 40%;
+}
+
+.grid li.large {
+    flex-basis: 60%;
+} */
