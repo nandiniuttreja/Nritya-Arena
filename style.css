@@ -16,6 +16,8 @@ body {
     background-color: #850b0b;
 }
 
+/* Navbar */
+
 nav {
     background-color: #1d1f24;
     -webkit-box-shadow: 0 8px 6px -6px black;
@@ -32,6 +34,8 @@ nav {
 .nav-link.active {
     color: #ee0c0c !important; 
 }
+
+/* Studio Image And Its Display  */
 
 .hero {
     color: #eee;
@@ -74,16 +78,6 @@ nav {
     color: #ff0404;
 }
 
-.hero-content-area {
-    opacity: 0;
-    margin-top: 100px;
-    animation: 1s slidefade 1s forwards;
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 @keyframes slidefade {
     100% {
         opacity: 1;
@@ -109,36 +103,46 @@ nav {
     }
 }
 
-.hero-text {
-    width: 55%;
+.hero-content-area {
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* About Us Section */
+
+.about-text,
+.why-us-text {
     color: #111111;
     text-align: center;
     margin: 6% auto;
     font-size: larger;
 }
 
-.grid {
-    width: 80% !important;
+.about-text p {
+    width: 60%;
+    margin: 0px auto;
 }
 
-.first-part,
-.second-part {
+.card{
+    border-radius: 8px;
+    border: 1px solid #cccccc;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 18rem;
+    transition: all linear 200ms;
 }
-
-.grid li {
-    list-style: none;
-    height: 450px;
-    padding: 20px;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: center;
+.card:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
 }
-
-/* .grid li.small {
-    flex-basis: 40%;
-}
-
-.grid li.large {
-    flex-basis: 60%;
-} */
