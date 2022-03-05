@@ -14,6 +14,8 @@ html {
 body {
     font-family: 'Fredoka', sans-serif !important;
     background-color: #850b0b;
+    overflow-x: hidden !important;
+    overflow-y: auto;
 }
 
 /* Navbar */
@@ -128,21 +130,12 @@ nav {
     margin: 0px auto;
 }
 
-.card{
-    border-radius: 8px;
-    border: 1px solid #cccccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    box-sizing: border-box;
-    width: 18rem;
-    transition: all linear 200ms;
+.row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }
-.card:hover{
-    transform: scale(1.1);
-    transition: all linear 200ms;
-    z-index: 1;
-    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
-    cursor: pointer;
-}
+    /* box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%); */
