@@ -118,7 +118,8 @@ nav {
 /* About Us Section */
 
 .about-text,
-.why-us-text {
+.why-us-text,
+.testimonials {
     color: #111111;
     text-align: center;
     margin: 6% auto;
@@ -128,4 +129,10 @@ nav {
 .about-text p {
     width: 60%;
     margin: 0px auto;
+    color: #d9cccc;
+}
+
+.why-us-text p,
+.text{
+    color: #d9cccc;
 }
