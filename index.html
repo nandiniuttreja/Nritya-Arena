@@ -10,356 +10,473 @@
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarTogglerDemo01">
-                <img src="./assets/logoo.png" width="70" alt="Bootstrappin'">
-                <div>
-                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link scroll-to active" href="#home" >Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll-to " href="#about" >About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll-to " href="#offering">What We Offer</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll-to " href="#testimonails">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll-to " href="#contact">Contact Us</a>
-                        </li>
-                    </ul>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarTogglerDemo01">
+              <img src="./assets/logoo.png" width="70" alt="Bootstrappin'">
+              <div>
+                  <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link scroll-to active" href="#home" >Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link scroll-to " href="#offering">What We Offer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link scroll-to " href="#about" >About Us</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link scroll-to " href="#testimonails">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link scroll-to " href="#contact">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <a href="https://m.facebook.com/officialnrityaarena/" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-facebook"></i></a>
+                  <a href="https://www.youtube.com/channel/UCKGk49M7VzuxQSKLfgorCGg" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-youtube mx-2"></i></a>
+                  <a href="https://www.instagram.com/nritya_arena/" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-instagram"></i></a>
+                  <a href="https://wa.me/+919520937338" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-whatsapp mx-2"></i></a>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <div class="content">
+    <button
+      type="button"
+      class="btn btn-floating btn-lg"
+      id="btn-back-to-top"
+      >
+      <i class="fas fa-arrow-alt-circle-up fa-2x" style="color: #ffffff !important;"></i>
+    </button>
+    <div class="home" id="home">
+        <section id="hero" class="hero">
+            <div class="background-image" style="background-image: url(./assets/main.png);"></div>
+            <div class="hero-content-area">
+                <h1>Nritya<span>-</span>Arena</h1>
+                <h3>"Take more <span>CHANCES</span>, Dance more <span>DANCES</span>"</h3>
+            </div>
+        </section>
+    </div>
+    <div class="offering" id="offering">
+      <section class="why-us-text">
+        <h1>What We Offer</h1>
+        <br>
+        <div class="container" style="margin-top: 2%;">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1357/1357532.png" alt="" width="110" style="opacity: 0.8;">
+                    <p class="description" style="margin: 2%;">
+                        <h3>
+                            Functions/Events <br> Choreography
+                        </h3>
+                        <p>
+                            We offer the dance choreography for any kind of functions or events. Parties, Weddings etc. dance functions are so much fun when the dance choreography is included. Be it group dances or solo  dances, we will teach you to rock all performances.
+                        </p>
                 </div>
-                <div>
-                    <a href="https://m.facebook.com/officialnrityaarena/" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/channel/UCKGk49M7VzuxQSKLfgorCGg" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-youtube mx-2"></i></a>
-                    <a href="https://www.instagram.com/nritya_arena/" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/+919520937338" target="_blank"><i style="color: #fff; font-size: 25px;" class="fab fa-whatsapp mx-2"></i></a>
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4136/4136594.png" alt="" width="110" style="opacity: 0.8;">
+                    <p class="description" style="margin: 2%;">
+                        <h3>
+                            Dance Training With The <br> Professionals
+                        </h3>
+                        <p>
+                            Our professional instructors know various forms of dance styles. We provide you with the opportunity to learn any form of dance styles. A beginner? - No Problem! We are here to guide you to the path of becoming a professional right from the start.
+                        </p>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                    <img src="https://cdn-icons.flaticon.com/png/512/2402/premium/2402477.png?token=exp=1653312568~hmac=426b058a9c1c25ee9c722f0ba08bd8c8" alt="" width="110" style="opacity: 0.8;">
+                    <p class="description" style="margin: 2%;">
+                        <h3>
+                            Online/Studio/Home <br> Classes
+                        </h3>
+                        <p>
+                            We are providing you with the studio and home classes in Muzaffarnagar (UP) and the online classes as per the convenience. Dancing with the friends in the academy, online classes for the comfort at your home and home tuitions are all fun while dancing.
+                        </p>
+                    </p>
                 </div>
             </div>
         </div>
-    </nav>
-    <div class="content">
-        <!-- home page -->
-        <div class="home" id="home">
-            <section id="hero" class="hero">
-                <div class="background-image" style="background-image: url(./assets/main.png);"></div>
-                <div class="hero-content-area">
-                    <h1>Nritya<span>-</span>Arena</h1>
-                    <h3>"Take more <span>CHANCES</span>, Dance more <span>DANCES</span>"</h3>
-                </div>
-            </section>
-        </div>
-        <div class="about" id="about">
-          <section class="about-text">
-            <h1>About Nritya Arena</h1>
-            <br>
-            <p>
-                From professional dancing to weddings, events or functions dances, Nritya Arena is here to provide the best quality dance training. We offer home classes and regular studio classes, here, in Muzaffarnagar. We also offer online interactive dance sessions. Learn dancing while having fun with our professional dancers and trainers.
-            </p>
-            <br>
-            <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
-            <br>
-          </section>
-        </div>
-            <div class="offering" id="offering">
-              <section class="why-us-text">
-                <h1>What We Offer</h1>
-                <br>
-                <div class="container" style="margin-top: 2%;">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1357/1357532.png" alt="" width="110" style="opacity: 0.8;">
-                            <p class="description" style="margin: 2%;">
-                                <h3>
-                                    Functions/Events <br> Choreography
-                                </h3>
-                                <p>
-                                    We offer the dance choreography for any kind of functions or events. Parties, Weddings etc. dance functions are so much fun when the dance choreography is included. Be it group dances or solo  dances, we will teach you to rock all performances.
-                                </p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                            <img src="https://cdn-icons-png.flaticon.com/512/4136/4136594.png" alt="" width="110" style="opacity: 0.8;">
-                            <p class="description" style="margin: 2%;">
-                                <h3>
-                                    Dance Training With The <br> Professionals
-                                </h3>
-                                <p>
-                                    Our professional instructors know various forms of dance styles. We provide you with the opportunity to learn any form of dance styles. A beginner? - No Problem! We are here to guide you to the path of becoming a professional right from the start.
-                                </p>
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                            <img src="https://cdn-icons.flaticon.com/png/512/2402/premium/2402477.png?token=exp=1653312568~hmac=426b058a9c1c25ee9c722f0ba08bd8c8" alt="" width="110" style="opacity: 0.8;">
-                            <p class="description" style="margin: 2%;">
-                                <h3>
-                                    Online/Studio/Home <br> Classes
-                                </h3>
-                                <p>
-                                    We are providing you with the studio and home classes in Muzaffarnagar (UP) and the online classes as per the convenience. Dancing with the friends in the academy, online classes for the comfort at your home and home tuitions are all fun while dancing.
-                                </p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
-                <br>
-            </section>
-          </div>
-          <div class="testimonials" id="testimonials">
-            <section class="testimonials">
-              <h1>Testimonials</h1>
-              <br>
-              <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
-                  <!-- Controls -->
-                  <div class="d-flex justify-content-center mb-4">
-                    <button class="carousel-control-prev position-relative" type="button"
-                      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next position-relative" type="button"
-                      data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                  <!-- Inner -->
-                  <div class="carousel-inner py-4">
-                    <!-- Single item -->
-                    <div class="carousel-item active">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-4">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Anna Deynah</h5>
-                          
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                              officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">John Doe</h5>
-                            
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                              suscipit laboriosam, nisi ut aliquid commodi.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li>
-                                <i class="fas fa-star-half-alt fa-sm"></i>
-                              </li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Maria Kate</h5>
-                          
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                              praesentium voluptatum deleniti atque corrupti.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="far fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <!-- Single item -->
-                    <div class="carousel-item">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-4">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">John Doe</h5>
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                              officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Alex Rey</h5>
-                       
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                              suscipit laboriosam, nisi ut aliquid commodi.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li>
-                                <i class="fas fa-star-half-alt fa-sm"></i>
-                              </li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Maria Kate</h5>
-                           
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                              praesentium voluptatum deleniti atque corrupti.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="far fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                
-                    <!-- Single item -->
-                    <div class="carousel-item">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-lg-4">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Anna Deynah</h5>
-                           
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                              officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">John Doe</h5>
-                        
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                              suscipit laboriosam, nisi ut aliquid commodi.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li>
-                                <i class="fas fa-star-half-alt fa-sm"></i>
-                              </li>
-                            </ul>
-                          </div>
-                
-                          <div class="col-lg-4 d-none d-lg-block">
-                            <img class="rounded-circle shadow-1-strong mb-4"
-                              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
-                              style="width: 150px;" />
-                            <h5 class="mb-3">Maria Kate</h5>
-                          
-                            <p class="text">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                              praesentium voluptatum deleniti atque corrupti.
-                              <i class="fas fa-quote-right pe-2"></i>
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="fas fa-star fa-sm"></i></li>
-                              <li><i class="far fa-star fa-sm"></i></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Inner -->
-                </div>
-                <!-- Carousel wrapper -->
-                
-            </section>
-          </div>
-            
-        </div>
+        <br>
+        <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
+        <br>
+      </section>
     </div>
+    <div class="about" id="about">
+      <section class="about-text">
+        <div class="row">
+          <h1>About Us</h1>
+          <br>
+          <br>
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h1 style="float: right">Nritya Arena</h1>
+            <p>
+              From professional dancing to weddings, events or functions dances. Nritya Arena is here to provide the best quality dance training. We offer home classes and regular studio classes, here, in Muzaffarnagar. We also offer online interactive dance sessions. Learn dancing while having fun with our professional dancers and trainers. With various dance instructors, you can experience the quality dancing that will make you want to dance the whole day. The different types of dance styles are being offered here.
+            </p>
+          </div>
+          <div class="col-lg-7">
+              <img src="./assets/sab-log.jpeg" class="img-fluid" loading="lazy" style="margin: 1%;">
+          </div>
+        </div>
+        <br>
+        <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
+        <br>
+      </section>
+    </div>
+    <div class="testimonials" id="testimonials">
+      <section class="testimonials">
+        <h1>Testimonials</h1>
+        <br>
+        <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+            <!-- Controls -->
+            <div class="d-flex justify-content-center mb-4">
+              <button class="carousel-control-prev position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Inner -->
+            <div class="carousel-inner py-4">
+              <!-- Single item -->
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Anna Deynah</h5>
+                    
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">John Doe</h5>
+                      
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                        suscipit laboriosam, nisi ut aliquid commodi.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li>
+                          <i class="fas fa-star-half-alt fa-sm"></i>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Maria Kate</h5>
+                    
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Single item -->
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">John Doe</h5>
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Alex Rey</h5>
+                  
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                        suscipit laboriosam, nisi ut aliquid commodi.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li>
+                          <i class="fas fa-star-half-alt fa-sm"></i>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Maria Kate</h5>
+                      
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Single item -->
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Anna Deynah</h5>
+                      
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">John Doe</h5>
+                  
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                        suscipit laboriosam, nisi ut aliquid commodi.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li>
+                          <i class="fas fa-star-half-alt fa-sm"></i>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+                        style="width: 150px;" />
+                      <h5 class="mb-3">Maria Kate</h5>
+                    
+                      <p class="text">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Inner -->
+        </div>
+          <!-- Carousel wrapper -->
+          <br>
+          <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
+          <br>  
+      </section>
+    </div>
+    <div class="contact" id="contact">
+      <section class="contact-us">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7">
+                      <div class="section-title">
+                          <h2>Contact Us</h2>
+                          <p>Want to consult with us for services related queries? <br>
+                            Send us right away.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-7">
+                      <form action="/" class="mb-4 mb-lg-0">
+                          <div class="form-row">
+                              <div class="col-md-6 form-group">
+                                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                              </div>
+                              <div class="col-md-6 form-group">
+                                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                          </div>
+                          <div class="form-group">
+                              <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                          </div>
+                          <button type="submit" class="btn text-white" style="background-color: #850b0b; ">Contact Now</button>
+                      </form>
+                  </div>
+
+                  <div class="col-lg-5">
+                      <div class="map">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13894.132904641243!2d77.7117403!3d29.4716376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbec2f03f3ef6e05d!2sNritya%20Arena!5e0!3m2!1sen!2sin!4v1653331114336!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </div>  
+    <div class="footer">
+      <footer class=" text-center text-white" style="background-color:rgb(0, 0, 0);">
+        <!-- Copyright -->
+        <div class="d-flex justify-content-between p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <div>
+            © 2022 Copyright:
+            <a class="text-white" href="https://www.NrityaArena.com">NrityaArena.com</a>
+          </div>
+          <div class="container">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <div>
+              <p><a href="https://goo.gl/maps/JahRqX89RD77AsAZA" target="_blank"><i class="fas fa-home me-3"></i>New Mandi, Muzaffarnagar, UP 251001</a></p>
+            <p><a href="mailto:nrityaarena@gmail.com" target="_blank"><i class="fas fa-envelope me-3"></i>
+              nrityaarena@gmail.com</a>
+            </p>
+            <p><a href="tel:+919520937338" target="_blank"><i class="fas fa-phone me-3"></i>+919520937338</a></p>
+            </div>
+            
+          </div>
+          <div>
+            Designed by
+            <a href="https://www.github.com/nandiniuttreja" target="_blank" style="color: #b70101;">Chikki</a>
+          </div>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+  </div>
 </body>
+<script>
+  //Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>
