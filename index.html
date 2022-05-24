@@ -1,166 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nritya Arena</title>
   <link rel="icon" type="image/x-icon" href="./assets/logoo.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-  <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-mobile" id="scrollspydet">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-          aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-around">
-          <img src="./assets/logoo.png" width="70" alt="Bootstrappin'">
-          <div>
-            <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#offering">What We Offer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <a href="https://m.facebook.com/officialnrityaarena/" target="_blank"><i
-                style="color: #fff; font-size: 25px;" class="fab fa-facebook"></i></a>
-            <a href="https://www.youtube.com/channel/UCKGk49M7VzuxQSKLfgorCGg" target="_blank"><i
-                style="color: #fff; font-size: 25px;" class="fab fa-youtube mx-2"></i></a>
-            <a href="https://www.instagram.com/nritya_arena/" target="_blank"><i style="color: #fff; font-size: 25px;"
-                class="fab fa-instagram"></i></a>
-            <a href="https://wa.me/+919520937338" target="_blank"><i style="color: #fff; font-size: 25px;"
-                class="fab fa-whatsapp mx-2"></i></a>
-          </div>
+  <!-- Navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-mobile" id="scrollspydet">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-around">
+        <img src="./assets/logoo.png" width="70" alt="Bootstrappin'">
+        <div>
+          <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offering">What We Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="https://m.facebook.com/officialnrityaarena/" target="_blank"><i
+              style="color: #fff; font-size: 25px;" class="fab fa-facebook"></i></a>
+          <a href="https://www.youtube.com/channel/UCKGk49M7VzuxQSKLfgorCGg" target="_blank"><i
+              style="color: #fff; font-size: 25px;" class="fab fa-youtube mx-2"></i></a>
+          <a href="https://www.instagram.com/nritya_arena/" target="_blank"><i style="color: #fff; font-size: 25px;"
+              class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/+919520937338" target="_blank"><i style="color: #fff; font-size: 25px;"
+              class="fab fa-whatsapp mx-2"></i></a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <div>
 
     <!-- BackToTop Icon -->
     <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
       <i class="fas fa-arrow-alt-circle-up fa-2x" style="color: #ffffff !important;"></i>
     </button>
 
-    <div data-spy="scroll" data-target="navbarScrollSpy">
-      <!-- Home Section -->
-      <section id="home hero" class="home hero">
-        <div class="background-image" style="background-image: url(./assets/main.png);"></div>
-        <div class="hero-content-area">
-          <h1>Nritya<span>-</span>Arena</h1>
-          <h3>"Take more <span>CHANCES</span>, Dance more <span>DANCES</span>"</h3>
-        </div>
-      </section>
+    <!-- Home Section -->
+    <section id="home hero" class="home hero">
+      <div class="background-image" style="background-image: url(./assets/main.png);"></div>
+      <div class="hero-content-area">
+        <h1>Nritya<span>-</span>Arena</h1>
+        <h3>"Take more <span>CHANCES</span>, Dance more <span>DANCES</span>"</h3>
+      </div>
+    </section>
 
-
-      <!-- Offerings / What We Offer -->
-      <section id="offerings" class="offering why-us-text">
-        <h1>What We Offer</h1>
-        <br>
-        <div class="container" style="margin-top: 2%;">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <img src="https://cdn-icons-png.flaticon.com/512/1357/1357532.png" alt="" width="110"
-                style="opacity: 0.8;">
-              <p class="description" style="margin: 2%;">
-                <h3>
-                  Functions/Events <br> Choreography
-                </h3>
-                <p>
-                  We offer the dance choreography for any kind of functions or events. Parties, Weddings etc. dance
-                  functions are so much fun when the dance choreography is included. Be it group dances or solo dances,
-                  we
-                  will teach you to rock all performances.
-                </p>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <img src="https://cdn-icons-png.flaticon.com/512/4136/4136594.png" alt="" width="110"
-                style="opacity: 0.8;">
-              <p class="description" style="margin: 2%;">
-                <h3>
-                  Dance Training With The <br> Professionals
-                </h3>
-                <p>
-                  Our professional instructors know various forms of dance styles. We provide you with the opportunity
-                  to
-                  learn any form of dance styles. A beginner? - No Problem! We are here to guide you to the path of
-                  becoming a professional right from the start.
-                </p>
+    <!-- Offerings / What We Offer -->
+    <section id="offering" class="offering why-us-text">
+      <h1>What We Offer</h1>
+      <br>
+      <div class="container" style="margin-top: 2%;">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <img src="https://cdn-icons-png.flaticon.com/512/1357/1357532.png" alt="" width="110"
+              style="opacity: 0.8;">
+            <p class="description" style="margin: 2%;">
+              <h3>
+                Functions/Events <br> Choreography
+              </h3>
+              <p>
+                We offer the dance choreography for any kind of functions or events. Parties, Weddings etc. dance
+                functions are so much fun when the dance choreography is included. Be it group dances or solo dances,
+                we
+                will teach you to rock all performances.
               </p>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-              <img
-                src="https://cdn-icons.flaticon.com/png/512/2402/premium/2402477.png?token=exp=1653312568~hmac=426b058a9c1c25ee9c722f0ba08bd8c8"
-                alt="" width="110" style="opacity: 0.8;">
-              <p class="description" style="margin: 2%;">
-                <h3>
-                  Online/Studio/Home <br> Classes
-                </h3>
-                <p>
-                  We are providing you with the studio and home classes in Muzaffarnagar (UP) and the online classes as
-                  per the convenience. Dancing with the friends in the academy, online classes for the comfort at your
-                  home and home tuitions are all fun while dancing.
-                </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <img src="https://cdn-icons-png.flaticon.com/512/4136/4136594.png" alt="" width="110"
+              style="opacity: 0.8;">
+            <p class="description" style="margin: 2%;">
+              <h3>
+                Dance Training With The <br> Professionals
+              </h3>
+              <p>
+                Our professional instructors know various forms of dance styles. We provide you with the opportunity
+                to
+                learn any form of dance styles. A beginner? - No Problem! We are here to guide you to the path of
+                becoming a professional right from the start.
               </p>
-            </div>
+            </p>
           </div>
-        </div>
-        <br><br>
-        <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
-        <br>
-      </section>
-    </div>
-
-    <!-- About Section -->
-    <section id="about" class="about about-text">
-      <div class="row">
-        <h1>About Us</h1>
-        <br>
-        <br>
-        <div class="row" style="margin-top: 1%;">
-          <div class="col-lg-6 d-flex flex-column" style="margin: auto auto;">
-            <img src="./assets/group-photo.jpeg" class="img-fluid" loading="lazy" style="margin: 1%;">
-          </div>
-          <div class="col-lg-6 d-flex flex-column container-fluid">
-            <h1 style="float: right;">Nritya Arena</h1>
-            <p>
-              From professional dancing to weddings, events or functions dances. Nritya Arena is here to provide the
-              best quality dance training. We offer home classes and regular studio classes, here, in Muzaffarnagar. We
-              also offer online interactive dance sessions. Learn dancing while having fun with our professional dancers
-              and trainers. With various dance instructors, you can experience the quality dancing that will make you
-              want to dance the whole day. The different types of dance styles are being offered here. Be it a Funky
-              Bollywood or a Professional Hip-Hop Dance, we are here to make you ace any form. Gautam Bayal, the founder
-              of Nritya Arena initiated to open a dance class, with a vision to make people happy by making them groove
-              to their own rhythm. The ultimate aim of our dance studio is to provide everyone with the best facilities,
-              so that they dance the stress out of their everyday routines.
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/2402/premium/2402477.png?token=exp=1653312568~hmac=426b058a9c1c25ee9c722f0ba08bd8c8"
+              alt="" width="110" style="opacity: 0.8;">
+            <p class="description" style="margin: 2%;">
+              <h3>
+                Online/Studio/Home <br> Classes
+              </h3>
+              <p>
+                We are providing you with the studio and home classes in Muzaffarnagar (UP) and the online classes as
+                per the convenience. Dancing with the friends in the academy, online classes for the comfort at your
+                home and home tuitions are all fun while dancing.
+              </p>
             </p>
           </div>
         </div>
@@ -170,249 +140,178 @@
       <br>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials testimonials-text">
-      <h1>Testimonials</h1>
-      <br>
-      <div id="testimonialSwitchId" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
-        <!-- Controls -->
-        <div class="d-flex justify-content-center mb-4">
-          <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#testimonialSwitchId"
-            data-mdb-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next position-relative" type="button" data-mdb-target="#testimonialSwitchId"
-            data-mdb-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <!-- Inner -->
-        <div class="carousel-inner py-4">
-          <!-- Single item -->
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Anna Deynah</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">John Doe</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                    suscipit laboriosam, nisi ut aliquid commodi.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li>
-                      <i class="fas fa-star-half-alt fa-sm"></i>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Maria Kate</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                    praesentium voluptatum deleniti atque corrupti.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="far fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+    <!-- About Section -->
+    <section id="about" class="about ">
+        <div class="row">
+          <h1 style="color: #111111; text-align: center;">About Us</h1>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="col-lg-6">
+            <img src="assets/group-photo.jpeg" class="img-fluid" alt="" loading="lazy">
           </div>
-
-          <!-- Single item -->
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">John Doe</h5>
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Alex Rey</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                    suscipit laboriosam, nisi ut aliquid commodi.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li>
-                      <i class="fas fa-star-half-alt fa-sm"></i>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Maria Kate</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                    praesentium voluptatum deleniti atque corrupti.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="far fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single item -->
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Anna Deynah</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
-                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">John Doe</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                    suscipit laboriosam, nisi ut aliquid commodi.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li>
-                      <i class="fas fa-star-half-alt fa-sm"></i>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
-                    style="width: 150px;" />
-                  <h5 class="mb-3">Maria Kate</h5>
-
-                  <p class="text">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                    praesentium voluptatum deleniti atque corrupti.
-                    <i class="fas fa-quote-right pe-2"></i>
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="far fa-star fa-sm"></i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" style="font-size: larger; margin: auto auto;">
+            <h1 style="color: #111111;">Nritya Arena</h1>
+            <p style="color: #d9cccc;">
+                From professional dancing to weddings, events or functions dances.<br>
+                Nritya Arena is here to provide the best quality dance training. We offer home classes and regular studio classes, here, in Muzaffarnagar. We also offer online interactive dance sessions. Learn dancing while having fun with our professional dancers and trainers. <br>
+                With various dance instructors, you can experience the quality dancing that will make you want to dance the whole day. The different types of dance styles are being offered here. Be it a Funky Bollywood or a Professional Hip-Hop Dance, we are here to make you ace any form. 
+                <b>Nritya Arena Founder Gautam Bayal</b>,initiated to open a dance class, with a vision to make people happy by making them groove to their own rhythm. The ultimate aim of our dance studio is to provide everyone with the best facilities, so that they dance the stress out of their everyday routines.
+            </p>
           </div>
         </div>
-        <!-- Inner -->
-      </div>
-      <!-- Carousel wrapper -->
-      <br>
+      <br><br><br>
       <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
       <br>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials testimonials-text">
+      <h1>Testimonials</h1>
+    </section>
+    <section id="testimonial_area" class="section_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="testmonial_slider_area text-center owl-carousel">
+
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/6.jpg" alt="">
+                </div>	
+                <h5>Nandini Uttreja</h5>
+                <span>Student</span>									
+                <p class="content">
+                  A great place to learn and explore. You must join if you're looking to have fun while learning dance. One of the best dance classes in Muzaffarnagar.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/1.jpg" alt="">
+                </div>	
+                <h5>Kashish Bhargav</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  This academy is awesome when i do dance i feel like that i put my heart and my soul in the dance it is my real experience and my teacher is so friendly to everyone they always smile and happy I never feel sad . One day I will do dance like that .
+
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+            
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/3.jpg" alt="">
+                </div>	
+                <h5>Karan Saini</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  The Epic Academy I Have Ever Seen & Personally There Is No other Dance Studio Who Beat Nritya Arena Dancers in our Area🔥🔥🔥🔥🔥
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+            
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/4.jpg" alt="">
+                </div>	
+                <h5>Sapna Agarwal</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  A great place to learn and enjoy and the teachers are very nice best academy in muzaffarnagar hurry up guy's join it
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+            
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/2.jpg" alt="">
+                </div>	
+                <h5>Anu Tyagi</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  If you really want to improve your dance moves and learn aerobics it would be a best place in my opinion this the best dance academy in muzaffarnagar
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/5.jpg" alt="">
+                </div>	
+                <h5>Akshita Tiwari</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  A healthy atmosphere,abound with fun, stress free environment, well-trained and experienced faculty
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+            
+              <div class="box-area">	
+                <div class="img-area">
+                  <img src="img/6.jpg" alt="">
+                </div>	
+                <h5>Celina Singh</h5>
+                <span>Designation Goes Here</span>									
+                <p class="content">
+                  Amazing studio with great trainers!!! Possibly The best dance academy in the town. Visit once and trust me you're gonna get the vibe!!!
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <hr style="height:3px; width:40%; margin:auto; border: 2px solid black;">
+      <br><br><br><br>
+    </section>
+    
     <!-- Contact -->
     <section id="contact" class="contact contact-us">
       <div class="container">
@@ -487,8 +386,9 @@
         <!-- Copyright -->
       </footer>
     </div>
-    </div>
-  </body>
+
+  </div>
+
 </body>
 
 <script>
@@ -510,6 +410,7 @@
       mybutton.style.display = 'none';
     }
   }
+
   // When the user clicks on the button, scroll to the top of the document
   mybutton.addEventListener('click', backToTop);
 
@@ -517,6 +418,31 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+  $(".testmonial_slider_area").owlCarousel({
+    autoplay: true,
+    slideSpeed:1000,
+    items : 3,
+    loop: true,
+    nav:true,
+    navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+    margin: 30,
+    dots: true,
+    responsive:{
+      320:{
+        items:1
+      },
+      767:{
+        items:2
+      },
+      600:{
+        items:2
+      },
+      1000:{
+        items:3
+      }
+    }
+  });
+
 </script>
 
 </html>
