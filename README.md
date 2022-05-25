@@ -1,3 +1,3 @@
 ### Nritya-Arena
 
-- A Static Website For A Dance Studio using HTML, CSS and Bootstrap.
+- A Static Website For A Dance Studio Using HTML, CSS and Bootstrap.
