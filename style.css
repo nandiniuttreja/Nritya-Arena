@@ -30,7 +30,7 @@ body {
 /* Navbar */
 
 nav {
-	background-color: #1d1f24;
+	background-color: #1d1f24 !important;
 	-webkit-box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
